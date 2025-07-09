@@ -1,0 +1,88 @@
+.main {
+  background-color: #74c2d7;
+  min-height: 100vh;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+.form{
+  display: grid;
+}
+
+.form input {
+  height: 40px;
+  width: 500px;
+  font-size: 20px;
+  border-radius: 20px;
+  vertical-align: auto;
+  padding: 20px;
+}
+
+.form button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  height: 40px;
+  width: 500px;
+  margin: 2px 0;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  color: #ffffff;
+  background-color: darkgreen;
+  font-size: 20px;
+}
+
+.total {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #3a1a1a68;
+  border-radius: 4px;
+}
+
+.lista {
+  display: grid;
+  margin: 5px;
+  flex-direction: row;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.btn_delete {
+  cursor: pointer;
+  /*display: inline-block;*/
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: red;
+  padding: 5px;
+}
+.btn_update {
+  cursor: pointer;
+  /*display: inline-block;*/
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: rgb(89, 0, 255);
+  padding: 5px;
+}
+
+.titulo{
+  color:rgb(59, 69, 5);
+}
+
+.form .cancelar{
+  background-color: rgba(46, 58, 11, 0.91);
+}
