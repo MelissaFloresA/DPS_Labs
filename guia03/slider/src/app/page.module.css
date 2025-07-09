@@ -1,0 +1,133 @@
+.page {
+  --color-primary: #bb86fc;
+  --color-bg: #121212;
+  --color-text: #e0e0e0;
+  --color-card-bg: #1e1e1e;
+  --color-card-hover: #2e2e2e;
+  
+  background: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos del carrusel */
+.carruselContainer {
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 10rem;
+  height: 200px;
+}
+
+.galleryItem {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  cursor: pointer;
+}
+
+.planetaImagen {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+  border: 3px solid var(--color-primary);
+  margin-top: 2rem;
+}
+
+.planetaNombre {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Override de estilos de la librería */
+.image-gallery-slide {
+  background: transparent !important;
+}
+
+.image-gallery-bullets .image-gallery-bullet {
+  background: var(--color-text) !important;
+  box-shadow: none !important;
+}
+
+.image-gallery-bullets .image-gallery-bullet.active {
+  background: var(--color-primary) !important;
+  transform: scale(1.2);
+}
+
+.image-gallery-content {
+  height: 100%;
+}
+
+/* Efectos hover */
+.galleryItem:hover .planetaImagen {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(187, 134, 252, 0.5);
+}
+
+/* Estilos de las pestañas */
+.tabsContainer {
+  width: 100%;
+  max-width: 600px;
+  background: var(--color-card-bg);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.tabsHeader {
+  display: flex;
+  border-bottom: 1px solid #333;
+  margin-bottom: 1.5rem;
+}
+
+.tabsHeader button {
+  background: none;
+  border: none;
+  color: var(--color-text);
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+}
+
+.tabActive {
+  color: var(--color-primary) !important;
+}
+
+.tabActive::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--color-primary);
+}
+
+.datosGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+
+.datosGrid div {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.datosGrid h3 {
+  color: var(--color-primary);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}

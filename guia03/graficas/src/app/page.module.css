@@ -1,0 +1,52 @@
+.page {
+  --gray-rgb: 0, 0, 0;
+  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+
+  display: grid;
+  grid-template-rows: 20px 1fr 20px;
+  align-items: center;
+  justify-items: center;
+  min-height: 100svh;
+  padding: 80px;
+  gap: 64px;
+  font-family: var(--font-geist-sans);
+}
+
+.tituloPrincipal {
+  color: var(--color-primario);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.selectorAno {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.etiquetaSelector {
+  margin-right: 1rem;
+  font-size: 1.1rem;
+}
+
+.selectAno {
+  background: var(--color-tarjeta);
+  color: var(--color-texto);
+  border: 1px solid var(--color-primario);
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #6d6666;
+}
+
+.contenedorGrafica {
+  background: var(--color-tarjeta);
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}

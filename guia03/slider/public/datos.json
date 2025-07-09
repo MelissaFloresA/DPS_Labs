@@ -1,0 +1,85 @@
+{
+    "planetas": [
+        {
+            "id": 1,
+            "nombre": "Mercurio",
+            "imagen": "https://content.nationalgeographic.com.es/medio/2022/07/31/el-planeta-mercurio_3bcc14b3_1200x630.jpg",
+            "masa": "3.3011 × 10^23 kg",
+            "distancia": "57.91 million km",
+            "temperatura": "-173 a 427°C",
+            "descripcion": "El planeta más pequeño y cercano al Sol."
+        },
+        {
+            "id": 2,
+            "nombre": "Venus",
+            "imagen": "https://media.wired.com/photos/5e59ad2b79c7100008eb6ae8/master/w_1600%2Cc_limit/photo_space_venus_1_S91-50688.jpg",
+            "masa": "4.8675 × 10^24 kg",
+            "distancia": "108.2 million km",
+            "temperatura": "462°C",
+            "descripcion": "El planeta más caliente del sistema solar."
+        },
+        {
+            "id": 3,
+            "nombre": "Tierra",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSONmnRAZMRwI2aBMoC00CaVvGDSiPMpmklbQ&s",
+            "masa": "5.972 × 10^24 kg",
+            "distancia": "149.6 million km",
+            "temperatura": "-88 a 58°C",
+            "descripcion": "Nuestro hogar, el único planeta conocido con vida."
+        },
+        {
+            "id": 4,
+            "nombre": "Marte",
+            "imagen": "https://e1.pxfuel.com/desktop-wallpaper/622/4/desktop-wallpaper-nasa-mars-mars-red.jpg",
+            "masa": "6.39 × 10^23 kg",
+            "distancia": "227.9 million km",
+            "temperatura": "-153 a 20°C",
+            "descripcion": "Conocido como el planeta rojo por su superficie oxidada. Tiene el volcán más grande del sistema solar, el Monte Olimpo."
+        },
+        {
+            "id": 5,
+            "nombre": "Júpiter",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj22E1S9p1rKNQr4z1McDvo3LiYndNaARrAA&s",
+            "masa": "1.898 × 10^27 kg",
+            "distancia": "778.5 million km",
+            "temperatura": "-108°C",
+            "descripcion": "El planeta más grande del sistema solar. Es un gigante gaseoso con una gran mancha roja que es una tormenta gigante."
+        },
+        {
+            "id": 6,
+            "nombre": "Saturno",
+            "imagen": "https://media.istockphoto.com/id/1362060571/es/foto/planeta-saturno-con-anillos-en-el-espacio-exterior-entre-polvo-de-estrellas-y-srars-luna-de.jpg?s=612x612&w=0&k=20&c=lL-L55ccFIOC_lcncbfQ6voiwQ0o9mMpOsLzgDRfI-8=",
+            "masa": "5.683 × 10^26 kg",
+            "distancia": "1.434 billion km",
+            "temperatura": "-139°C",
+            "descripcion": "Famoso por sus impresionantes anillos compuestos de hielo y roca. Es el segundo planeta más grande del sistema solar."
+        },
+        {
+            "id": 7,
+            "nombre": "Urano",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4MpMJR-l4pYYJ6vk-EalmNyx9LcP9PFskQ&s",
+            "masa": "8.681 × 10^25 kg",
+            "distancia": "2.871 billion km",
+            "temperatura": "-197°C",
+            "descripcion": "Gigante de hielo que gira de lado, con sus polos donde otros planetas tienen el ecuador. Tiene un color azul verdoso característico."
+        },
+        {
+            "id": 8,
+            "nombre": "Neptuno",
+            "imagen": "https://humanidades.com/wp-content/uploads/2024/03/Neptuno-anillos.jpg",
+            "masa": "1.024 × 10^26 kg",
+            "distancia": "4.495 billion km",
+            "temperatura": "-201°C",
+            "descripcion": "El planeta más ventoso del sistema solar con vientos supersónicos. Es el planeta más alejado del Sol."
+        },
+        {
+            "id": 9,
+            "nombre": "Plutón",
+            "imagen": "https://invdes.com.mx/wp-content/uploads/2019/09/03-09-19-pluton.jpg",
+            "masa": "1.309 × 10^22 kg",
+            "distancia": "5.906 billion km",
+            "temperatura": "-233°C",
+            "descripcion": "Planeta enano en el cinturón de Kuiper. Aunque pequeño, tiene una atmósfera delgada y cinco lunas conocidas."
+        }
+    ]
+}
