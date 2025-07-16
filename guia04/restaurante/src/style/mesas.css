@@ -1,0 +1,45 @@
+/* Estilos para el componente ListaMesas */
+.gridMesas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.mesa {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.mesa:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.mesa.disponible {
+  background-color: #e8f5e9;
+  border-left: 5px solid #4caf50;
+}
+
+.mesa.ocupada {
+  background-color: #ffebee;
+  border-left: 5px solid #f44336;
+}
+
+.botonLiberar {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.botonLiberar:hover {
+  background-color: #e64a19;
+}
